@@ -1,0 +1,16 @@
+# Credentials — never commit
+google-ads.yaml
+*.yaml.local
+.env
+token.json
+
+# Scan output
+scans/
+*.md.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
